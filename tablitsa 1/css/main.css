@@ -115,7 +115,7 @@ body{
 }
 
 /*  section2 */
-.grid-container1{
+.grid-container-tab{
     display: grid;
     grid-gap:20px;
     background-color: rgb(44, 117, 201);
@@ -143,7 +143,7 @@ body{
 }
 
 /* section3 */
-.grid-container2{
+.grid-container-tablet{
     display: grid;
 grid-gap:15px;
 background-color: rgb(44, 117, 201);
@@ -192,7 +192,7 @@ margin:0 auto
     grid-row-end: 4;
 }
 /* section 4 */
-.grid-container3{
+.grid-container-tablets{
     display: grid;
     grid-gap:20px;
     background-color: rgb(44, 117, 201);
