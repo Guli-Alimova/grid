@@ -1,0 +1,218 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    padding:30px;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-gap:20px;
+    background-color: rgb(44, 117, 201);
+    padding:20px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    justify-content: center;
+    width: 737px;
+    margin:0 auto
+    
+    
+}
+.grid-box{
+    background-color: aqua;
+    text-align: center;
+    padding-top:38px;
+    font-weight: bold;
+}
+.grid-box:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    background-color: white;
+   
+    
+}
+.grid-box:nth-child(2){
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-box:nth-child(3){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-box:nth-child(4){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(5){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(6){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(7){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(8){
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(9){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box:nth-child(10){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grid-box:nth-child(11){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grid-box:nth-child(12){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grid-box:nth-child(13){
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.grid-box:nth-child(14){
+    grid-column-start: 6;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+/*  section2 */
+.grid-container1{
+    display: grid;
+    grid-gap:20px;
+    background-color: rgb(44, 117, 201);
+    padding:20px;
+    grid-template-rows: 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    justify-content: center;
+    width: 737px;
+    margin:0 auto
+    
+}
+.grid-item{
+    background-color: aqua;
+    text-align: center;
+    padding-top:38px;
+    font-weight: bold;
+}
+.grid-item:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: white;
+   
+}
+
+/* section3 */
+.grid-container2{
+    display: grid;
+grid-gap:15px;
+background-color: rgb(44, 117, 201);
+padding:15px;
+grid-template-rows: 30px 30px 30px ;
+grid-template-columns: 100px 100px 100px;
+justify-content: center;
+width: 378px;
+margin:0 auto
+}
+
+
+.grid-box1{
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-box1:nth-child(1){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.grid-box1:nth-child(2){
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-box1:nth-child(3){
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box1:nth-child(4){
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.grid-box1:nth-child(5){
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+/* section 4 */
+.grid-container3{
+    display: grid;
+    grid-gap:20px;
+    background-color: rgb(44, 117, 201);
+    padding:20px;
+    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 100px 100px 100px 100px 100px 100px;
+    justify-content: center;
+    width: 737px;
+    margin:0 auto
+} 
+.grid-item1{
+    background-color: aqua;
+    text-align: center;
+    font-weight: bold;
+}
+.grid-item1:nth-child(8){
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    background-color: white;
+   
+}
